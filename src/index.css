@@ -1,0 +1,30 @@
+:root {
+  --text-main: #21150f;
+  --text-soft: #5f4736;
+  --accent: #c45d1a;
+  --accent-strong: #8f2f17;
+  --stroke: rgba(54, 30, 17, 0.2);
+  --bg-base: #f5ece0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Avenir Next', 'Trebuchet MS', 'Gill Sans', 'Segoe UI', sans-serif;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(205, 147, 101, 0.33), transparent 44%),
+    radial-gradient(circle at 80% 0%, rgba(191, 95, 57, 0.28), transparent 38%),
+    linear-gradient(130deg, var(--bg-base), #f8f1e7 44%, #f2e8d9 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
