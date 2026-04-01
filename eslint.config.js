@@ -7,7 +7,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 export default defineConfig([
   globalIgnores(['dist']),
   {
-    files: ['vite.config.js', 'api/**/*.js'],
+    files: ['vite.config.js', 'api/**/*.js', 'netlify/functions/**/*.js'],
     languageOptions: {
       globals: globals.node,
     },
